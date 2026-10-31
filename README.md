@@ -32,6 +32,7 @@ Give every agent its own working copy and branch.
 Separate ports, databases, services, and env files per worktree, so agents do not share state.
 
 - [container-use](https://github.com/dagger/container-use) - Gives each agent its own container and Git branch, exposed to the agent as an MCP server.
+- [heavyq](https://github.com/LysCongThanh/heavyq) - Priority queue for heavy commands (tests, builds) with RAM and load gates, light-job slots, and offload to spare machines over SSH by exact commit. *(by the list author)*
 - [herdr-sprout](https://github.com/simpros/herdr-sprout) - Plugin for herdr that provisions a PostgreSQL database and login role per worktree and writes credentials to an env file.
 - [isola](https://github.com/cyucelen/isola) - Per-worktree processes, URLs, env vars, and optional PostgreSQL databases cloned from a template, without Docker.
 - [lazy-cow-tree](https://github.com/treathealth/lazy-cow-tree) - Single binary and devenv module that gives each worktree its own services, databases, Redis, and HTTPS hostnames.
