@@ -48,6 +48,7 @@ Separate ports, databases, services, and env files per worktree, so agents do no
 Start, track, and coordinate many agent sessions.
 
 - [Agent of Empires](https://github.com/agent-of-empires/agent-of-empires) - Session manager with TUI, web UI, and HTTP API; optional worktree and container isolation per agent.
+- [Althar](https://github.com/AltharIDE/althar) - Desktop ADE for parallel agent tasks with independent model review.
 - [CCManager](https://github.com/kbwo/ccmanager) - Session manager for Claude Code, Gemini CLI, Codex CLI, Cursor Agent, and other CLI agents across worktrees.
 - [Claude Squad](https://github.com/smtg-ai/claude-squad) - Terminal app that runs Claude Code, Codex, OpenCode, and Amp in separate tmux sessions and worktrees.
 - [Emdash](https://github.com/generalaction/emdash) - Desktop app that runs multiple coding agents in parallel, each in its own worktree.
